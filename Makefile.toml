@@ -1,0 +1,19 @@
+[tasks.build]
+command = "docker"
+args = ["buildx", "build", ".", "-t", "mygreatservice"]
+
+[tasks.run]
+command = "docker"
+args = ["run", "-p", "8080:8080", "--name", "mygreatservice", "mygreatservice"]
+
+[tasks.stop]
+command = "docker"
+args = ["stop", "mygreatservice"]
+
+[tasks.clean]
+command = "docker"
+args = ["container", "rm", "mygreatservice"]
+
+[tasks.prune]
+command = "docker"
+args = ["system", "prune", "-a", "--volumes"]

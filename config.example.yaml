@@ -1,0 +1,14 @@
+server:
+  listen: 0.0.0.0:8080
+
+logging:
+  appenders:
+    stdout:
+      kind: console
+      # encoder:
+      #   kind: json
+
+  root:
+    level: debug
+    appenders:
+      - stdout
