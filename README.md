@@ -2,6 +2,8 @@
 
 This is a template for writing an HTTP service in Rust using [axum](https://github.com/tokio-rs/axum). It also contains an example on how to make a Docker image out of it and it shows how to use [cargo-make](https://sagiegurari.github.io/cargo-make/) to simplify building and running.
 
+Please [watch the video](https://www.youtube.com/watch?v=6BB8swunv8k) where the code was written to understand the ideas behind it.
+
 ## Features
 
 - [axum](https://github.com/tokio-rs/axum) for building the HTTP service
